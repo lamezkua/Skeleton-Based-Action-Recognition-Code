@@ -11,6 +11,7 @@ This paper presents the work done to recognize through the skeleton's key points
 <p align="center">
     <img src="demo/recognition/v_PoleVault_g04_c01_2.gif", width="400">
 </p>
+
 ## Updates
 - [2020-10-19] v0.1 is released.
 
