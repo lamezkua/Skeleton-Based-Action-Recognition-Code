@@ -117,3 +117,5 @@ ENV/
 mmskeleton/version.py
 data
 .vscode
+demo/.DS_Store
+demo/._.DS_Store
