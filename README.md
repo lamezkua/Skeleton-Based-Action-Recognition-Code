@@ -1,74 +1,21 @@
-# MMSkeleton
+# Skeleton-based Action Recognition
 
 ## Introduction
 
-MMSkeleton is an open source toolbox for skeleton-based human understanding.
-It is a part of the [open-mmlab](https://github.com/open-mmlab) project in the charge of [Multimedia Laboratory, CUHK](http://mmlab.ie.cuhk.edu.hk/).
-MMSkeleton is developed on our research project [ST-GCN](https://github.com/yysijie/st-gcn/blob/master/OLD_README.md).
+This paper presents the work done to recognize through the skeleton's key points the action that a person performs in a video. To do this, it was implemented a model of dynamic skeletons called Spatial-Temporal Graph Convolutional Networks which automatically learns both the spatial and temporal patterns from data. The UCF101 data-set, which consists of 101 action classes, over 13.000 clips and 27 hours of video data, was used in this work. The project, which followed a complete common workflow for an effort of this type, was splitted in the following steps: 1. Data preparation, 2. Training, 3. Testing, and 4. Presentation: application creation of the skeleton-based action recognition. Though the accuracy of the results obtained after working with the UCF101 data-set is not as good as it would have been desired, the way to increase these results was detected and proposed. Furthermore, a broad platform (OpenMMLab) that was used in this project is referred to be considered to continue working on this topic and/or any other related with Computer Vision.
 
 <p align="center">
     <img src="demo/recognition/demo_video.gif", width="700">
 </p>
 
 ## Updates
-- [2020-01-21] MMSkeleton v0.7 is released.
-- [2019-10-09] MMSkeleton v0.6 is released.
-- [2019-10-08] Support model zoo.
-- [2019-10-02] Support custom dataset.
-- [2019-09-23] Add video-based pose estimation demo.
-- [2019-08-29] MMSkeleton v0.5 is released.
-
-
-## Features
-
-- **High extensibility**
-
-    MMSkeleton provides a flexible framework for organizing codes and projects systematically, with the ability to extend to various tasks and scale up to complex deep models.
-
-- **Multiple tasks**
-
-    MMSkeleton addresses to multiple tasks in human understanding, including but not limited to:
-    - [x] [skeleton-based action recognition (ST-GCN)](./doc/START_RECOGNITION.md)
-    - [x] [2D pose estimation](./doc/START_POSE_ESTIMATION.md)
-    - [ ] skeleton-based action generation
-    - [ ] 3D pose estimation
-    - [ ] pose tracking
-    - [x] [build custom skeleton-based dataset](./doc/CUSTOM_DATASET.md)
-    - [x] [create your own applications](./doc/CREATE_APPLICATION.md)
-
-## Getting Started
-
-Please see [GETTING_STARTED.md](./doc/GETTING_STARTED.md) for more details of MMSkeleton.
+- [2020-10-19] v0.1 is released.
 
 ## License
 The project is release under the [Apache 2.0 license](./LICENSE).
 
-## Contributing
-We appreciate all contributions to improve MMSkeleton.
-Please refer to [CONTRIBUTING.md](./doc/CONTRIBUTING.md) for the contributing guideline.
-
-
-## Citation
-Please cite the following paper if you use this repository in your reseach.
-<!-- @inproceedings{stgcn2018aaai,
-  title     = {Spatial Temporal Graph Convolutional Networks for Skeleton-Based Action Recognition},
-  author    = {Sijie Yan and Yuanjun Xiong and Dahua Lin},
-  booktitle = {AAAI},
-  year      = {2018},
-} -->
-```
-@misc{mmskeleton2019,
-  author =       {Sijie Yan, Yuanjun Xiong, Jingbo Wang, Dahua Lin},
-  title =        {MMSkeleton},
-  howpublished = {\url{https://github.com/open-mmlab/mmskeleton}},
-  year =         {2019}
-}
-```
-
 ## Contact
 For any question, feel free to contact
 ```
-Sijie Yan     : ys016@ie.cuhk.edu.hk
-Jingbo Wang   : wangjingbo1219@foxmail.com
-Yuanjun Xiong : bitxiong@gmail.com
+AMEZCUA Luis     : luis.amezcua@aalto.fi
 ```
